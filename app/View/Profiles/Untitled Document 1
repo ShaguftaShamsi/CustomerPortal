@@ -1,0 +1,32 @@
+<h1>Invite</h1>
+<div id="container">
+<?php
+echo $this->Form->create('Invite');
+echo $this->Form->input('email');
+echo $this->Form->end('Invite');
+?>
+</div>
+ 
+
+<?php
+ if(!empty($email) && !empty($status)){?>
+<div align ='center'> 
+<table>
+<th>Email</th>
+<th>Status</th>
+<tr><td> <?php echo $email ;?></td>
+   <td><?php echo $status ;?></td>
+    <?php if($status='Pending'){?>
+      <tr><td><?echo  $this->Html->link(
+        'Resend',
+ array('action' =>'invite')
+       );
+      } ?> 
+</td></tr>
+</table>
+</div>
+<?php   }
+
+
+
+
