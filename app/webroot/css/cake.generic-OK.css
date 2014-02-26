@@ -1,0 +1,66 @@
+/*body {
+	background: #ddd;
+	font: 12px "Lucida Grande", "Trebuchet Ms", sans-serif;
+	width:100%;
+	height:100%;
+	font-size:90%;
+	margin: 0;
+}
+*/
+
+html, body {
+   
+    padding: 0;
+    border: 0;
+    background: #ddd;
+       margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/*#wrap {
+	margin: 20px auto;
+	background: #fff;
+	width:100%;
+	height:100%;
+}*/
+#navigation, #footer {
+	background: #333;
+	padding: 8px 10px;
+	color: #fff;
+}
+#navigation a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0 15px;
+}
+#content {
+
+	background: #fff;
+	clear: both;
+	   width: 100%;
+    height: 100%;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+	text-align: center;
+
+}
+label {
+	display: block;
+	font-size: 110%;
+	margin-bottom:3px;
+	color:Maroon;
+}
+form .input {
+	color: #444;
+}
+
+#content h2 {
+	margin: 0;
+}
+#footer {
+	font-size: 11px;
+	clear: both;
+	padding: 6px 10px;
+	text-align: center;
+}

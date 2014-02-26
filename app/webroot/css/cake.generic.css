@@ -1,0 +1,230 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	background: #f0f0f0;
+	
+}
+#navigation, #footer {
+	
+	padding: 8px 10px;
+	color: #333;;
+}
+.wrapper {
+position: relative;
+min-height: 100%;
+}
+div {
+display: block;
+}
+#content h2 {
+	margin: 0;
+}
+
+.clearfix {
+zoom: 1;
+}
+.main {
+padding-bottom: 100px;
+}
+.content {
+padding: 0  200px;
+ align:center;
+}
+.banner {
+text-align: center;
+
+}
+.banner h1 {
+font-size: 38px;
+margin-bottom: 15px;
+color:#045FB4;
+}
+a, u {
+    text-decoration: none;
+   color:blue;
+}
+a:link:hover {color:blue}
+    a:visited:hover {color:blue}
+
+
+form {
+display: block;
+margin-top: 0em;
+}
+
+.banner h2 {
+margin-bottom: 15px;
+}
+.banner h2 {
+font-family: 'Open Sans', arial;
+-webkit-font-smoothing: antialiased;
+color: #555;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.create-account{
+text-align: center;
+}
+
+.error{
+
+color: #D63301;
+
+font-size:12px;
+}
+.forget{
+visibility:hidden;
+}
+recovery .hideable-wrapper {
+overflow: hidden;
+
+}
+.signin-card {
+width: 274px;
+padding: 40px 40px;
+margin: 10px 10px;
+}
+ServiceLoginmedia="screen and (max-width: 800px), screen and (max-height: 800px)"
+.card {
+margin-bottom: 20px;
+}
+.card {
+background-color: #f7f7f7;
+padding: 20px 25px 30px;
+margin: 0 auto 25px;
+width: 304px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.clearfix {
+zoom: 1;
+}
+user agent stylesheetdiv {
+display: block;
+}
+
+user agent stylesheetdiv {
+display: block;
+}
+.one-google p.create-account, .one-google p.switch-account {
+margin-bottom: 30px;
+}
+input[type=email],input[type=password] {
+	color: #777;
+	padding-left: 10px;
+        margin: 10px;
+        margin-top: 12px;
+	margin-left: 15px;
+    
+	width: 275px;
+	height: 35px;
+	border: 1px solid #c7d0d2;
+	border-radius: 2px;
+       -moz-border-radius: 2px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+input[type=submit]{
+ 	color:#fff;
+ 	background-color: #045FB4;
+	padding-left: 10px;
+	margin: 10px;
+        margin-top: 12px;
+	margin-left: 15px;
+        margin-right: 18px;
+	width: 290px;
+	height: 35px;
+	border: 1px solid #c7d0d2;
+}
+input[type=checkbox]{
+margin-left: 15px;
+}
+.profile-img {
+width: 96px;
+height: 96px;
+margin: 0 auto 10px;
+display: block;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+
+
+
+.need-help-reverse {
+float: right;
+}
+
+
+.sign-up{
+float:right;
+width:362px;
+}
+
+.signup-box{
+	margin: 0px ;
+	padding: 25px;
+	background: #f1f1f1;
+}
+
+
+#navbar {
+    background-color: #d90000;
+}
+ 
+#navbar ul {
+    margin: 0; 
+    padding: 0;
+    float: left;
+}
+ 
+#navbar ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+ 
+#navbar ul li a{
+    float: left; 
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+}
+ 
+#navbar ul li a:visited {
+    color: white;
+}
+ 
+#navbar ul li a:hover, #navbar ul li .current{
+    color: #fff;
+    background-color:#bf0000;
+}
+ 
+#navbar .first  {
+    /*You can put stuff here for the first item in the navbar*/
+}
+ 
+#navbar .last  {
+    /*You can put stuff here for the last item in the navbar*/
+}
+
+
+
+#footer {
+	font-size: 11px;
+	clear:both;
+	padding: 6px 10px;
+	text-align: center;
+}
