@@ -1,0 +1,11 @@
+
+
+           Email Configuration
+=====================================================
+Please change email.php with your own email settings
+You can find this file by going app/Config/Email.php.
+Change smtp host,username,password with your own host,
+username and password respectively.
+
+ 
+
